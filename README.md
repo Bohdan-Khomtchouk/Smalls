@@ -36,19 +36,19 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 If filename is 'chr1.GRCh38.excerpt.fasta', then:
 
-`p = 'GGCGCGGTGGCTCACGCCTGTAATCCCAGCACTTTGGGAGGCCGAGG'` 47 base pairs
+* `p = 'GGCGCGGTGGCTCACGCCTGTAATCCCAGCACTTTGGGAGGCCGAGG'` 47 base pairs
 
-`t = readGenome()` MANY base pairs
+* `t = readGenome()` MANY base pairs
 
-`print(approximate_match(p, t, 2))`
-`[160162, 147558, 364263, 717706, 465647, 429299, 657496, 160729, 56922, 191452, 724927]`
+* `print(approximate_match(p, t, 2))`
+* `[160162, 147558, 364263, 717706, 465647, 429299, 657496, 160729, 56922, 191452, 724927]`
 
 Prints all starting positions where p has matched t (with 0, 1, or 2 mismatches allowed).  For sake of example, here are the first 24 base pairs of the respective matches (using IPython QtConsole 3.2.0): 
 
-`In [1]: list = [t[160162:160162+24], t[147558:147558+24], t[364263:364263+24], t[717706:717706+24], t[465647:465647+24], t[429299:429299+24], t[657496:657496+24], t[160729:160729+24], t[56922:56922+24], t[191452:191452+24], t[724927:724927+24]]`
+* `In [1]: list = [t[160162:160162+24], t[147558:147558+24], t[364263:364263+24], t[717706:717706+24], t[465647:465647+24], t[429299:429299+24], t[657496:657496+24], t[160729:160729+24], t[56922:56922+24], t[191452:191452+24], t[724927:724927+24]]`
 
-`In [2]: list`
-`Out[2]:` 
+* `In [2]: list`
+* `Out[2]:` 
 `['GGCACGGTGGCTCACGCATGTAAT',`
  `'GGCGCGGTGGCTCATGCCTGTAAT',`
  `'GGCGCGGTGGCTCACGCCTGTAAT',`
@@ -61,11 +61,11 @@ Prints all starting positions where p has matched t (with 0, 1, or 2 mismatches 
  `'GGCGCGGTGGTTCACGCCTGTAAT',`
  `'GGCACGGTGGCTCACGCCTGTAAT']`
 
-`In [3]: len(list)`
-`Out[3]: 11`
+* `In [3]: len(list)`
+* `Out[3]: 11`
 
-`In [4]: set(list) #unique 24-mers`
-`Out[4]:` 
+* `In [4]: set(list) #unique 24-mers`
+* `Out[4]:` 
 `{'AGCGCGGTGGCTCACGCCTGTAAT',`
  `'GGCACGGTGGCTCACGCATGTAAT',`
  `'GGCACGGTGGCTCACGCCTGTAAT',`
@@ -75,5 +75,5 @@ Prints all starting positions where p has matched t (with 0, 1, or 2 mismatches 
  `'GGCGCGGTGGCTCATGCCTGTAAT',`
  `'GGCGCGGTGGTTCACGCCTGTAAT'}`
  
-`In [5]: len(set(list))`
-`Out[5]: 8`
+* `In [5]: len(set(list))`
+* `Out[5]: 8`
