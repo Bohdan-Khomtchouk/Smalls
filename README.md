@@ -4,6 +4,7 @@
 
 Smalls is a Python and shell scripting software program that efficiently aligns miRNA seed sequences to three-prime and five-prime untranslated regions in DNA (3'-UTR and 5'-UTR gene regions).
 Smalls' efficiency and flexibility stem from its utilization of advanced string algorithms and user-specified options for approximate matching (e.g., 2 mismatches).
+
 miRNA binding at UTR regions has been shown to influence biological processes as diverse as embryonic development or disease progression.  It is, therefore, imperative
 to be able to computationally evaluate a candidate list of miRNAs in relation to their potential UTR binding targets.  By evaluating which specific miRNAs align most often
 in the genome (as quantified by raw count of successful alignment at a given approximate mismatch rate), we can determine which specific miRNAs are most promising to 
