@@ -2,7 +2,7 @@
 
 ## About
 
-Smalls is a Python and shell scripting software program that efficiently aligns miRNA seed sequences to three-prime and five-prime untranslated regions in DNA (3'-UTR and 5'-UTR gene regions).
+Smalls is destined to become a noncoding RNA R package (i.e., I'm working on it!).  Currently, Smalls is a Python/R/shell scripting software program that efficiently aligns miRNA seed sequences to three-prime and five-prime untranslated regions in DNA (3'-UTR and 5'-UTR gene regions).
 Smalls' efficiency and flexibility stem from its utilization of advanced string algorithms and user-specified options for approximate matching (e.g., 2 mismatches).
 
 miRNA binding at UTR regions has been shown to influence biological processes as diverse as embryonic development or disease progression.  It is, therefore, imperative
@@ -34,6 +34,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
 ## Example usage:
+
+### R:
+
+<img width="1067" alt="screen shot 2016-05-13 at 12 13 02 pm" src="https://cloud.githubusercontent.com/assets/9893806/15254326/40fee134-1904-11e6-9908-a5bc97be1c47.png">
+
+### Python:
 
 If filename is 'chr1.GRCh38.excerpt.fasta', then:
 
